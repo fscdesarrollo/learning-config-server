@@ -4,7 +4,7 @@ Logging:
     Default: Information
     Microsoft: Warning
 Message:
-  HelloWorld: "The most famous message in the developer community."
+  HelloWorld: "Hello World!! The most famous message in the developer community."
 NewsApiConfig:
   ApiKey: "Get from Azure App Configuration"
   Url: "http://newsapi.org/v2/top-headlines"
