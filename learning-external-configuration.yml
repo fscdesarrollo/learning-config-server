@@ -3,10 +3,10 @@ Logging:
   LogLevel:
     Default: Information
     Microsoft: Warning
+MarvelApiConfig:
+  Hash: cefcb75986845fd7caf2eab2d805c130
+  PublicKey: 5daf0826df6196c9a52561eed5cfa328
+  Timestamp: 1
+  Url: "https://gateway.marvel.com:443"
 Message:
-  HelloWorld: "Hello World!! The most famous message in the developer community."
-NewsApiConfig:
-  ApiKey: "Get from Azure App Configuration"
-  Url: "http://newsapi.org/v2/top-headlines"
-SaintSeiyaApiConfig:
-  Url: "https://saint-seiya-api.herokuapp.com/api"
+  HelloWorld: "The most famous message in the developer community."
