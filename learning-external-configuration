@@ -1,0 +1,11 @@
+AllowedHosts: "*"
+Logging:
+  LogLevel:
+    Default: Information
+    Microsoft: Warning
+Message:
+  HelloWorld: "The most famous message in the developer community."
+NewsApiConfig:
+  ApiKey: "Get from Azure App Configuration"
+  Url: "ttp://newsapi.org/v2/top-headlines"
+ 
