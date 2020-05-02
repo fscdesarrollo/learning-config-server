@@ -8,3 +8,5 @@ Message:
 NewsApiConfig:
   ApiKey: "Get from Azure App Configuration"
   Url: "http://newsapi.org/v2/top-headlines"
+SaintSeiyaApiConfig:
+  Url: "https://saint-seiya-api.herokuapp.com/api"
