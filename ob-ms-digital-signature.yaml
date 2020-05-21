@@ -1,0 +1,46 @@
+AllowedHosts: "*"
+BasePath: /ob-digital-signature/
+ConnectionStrings:
+  DigitalSignatureDb: "Server=localhost:1436; Database=ob-digital-signature; User=ObDigitalSignatureAdmin;Password=Clave789"
+Logging:
+LogLevel:
+    Default: Information
+    Microsoft: Warning
+Olimpia:
+  ApplicationCode: DF02884A-1CB0-1546-8748-17429A6E9205
+  Image: ""
+  Password: Password123
+  ResponseType: "1"
+  Stamped: "true"
+  User: User123
+  VisibleImage: "false"
+  VisibleSignature: "false"
+  XPoint: "0"
+  YPoint: "0"
+Prospect:
+  Uri: "http://ob-prospect:8080"
+SilverbackConfig:
+  BootstrapServer: localhost:9092
+  ClientId: prospect-service
+  Endpoints:
+    - GroupId: prospect-service
+      Name: CoDigitalSignatureSignProspectCmd
+      Topic: co-digital-signature-sign-prospect-cmd
+    - GroupId: prospect-service
+      Name: CoDigitalSignatureSigednProspectEvt
+      Topic: co-digital-signature-signed-prospect-evt
+    - GroupId: prospect-service
+      Name: CoDigitalSignatureSigednProspectErrorEvt
+      Topic: co-digital-signature-signed-prospect-error-evt
+    - GroupId: error-service
+      Name: Retry5m
+      Topic: retry_5M_topic
+    - GroupId: error-service
+      Name: Retry30m
+      Topic: retry_30M_topic
+    - GroupId: error-service
+      Name: Retry60m
+      Topic: retry_60M_topic
+    - GroupId: error-service
+      Name: FailedTopic
+      Topic: failed_topic
