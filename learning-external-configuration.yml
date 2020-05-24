@@ -9,4 +9,4 @@ MarvelApiConfig:
   Timestamp: 1
   Url: "https://gateway.marvel.com:443"
 Message:
-  HelloWorld: "The most famous message in the developer community."
+  HelloWorld: "The most famous message in the developer community. - CHANGED"
