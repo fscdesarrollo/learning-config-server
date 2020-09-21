@@ -4,8 +4,8 @@ Logging:
     Default: Information
     Microsoft: Warning
 MarvelApiConfig:
-  Hash: cefcb75986845fd7caf2eab2d805c130
-  PublicKey: 5daf0826df6196c9a52561eed5cfa328
+  Hash: cefcb75986845fd7caf2Zab2d805c130
+  PublicKey: 5daf0826df6196c9Z52561eed5cfa328
   Timestamp: 1
   Url: "https://gateway.marvel.com:443"
 Message:
